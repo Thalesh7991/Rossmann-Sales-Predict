@@ -69,7 +69,13 @@ Para o processo de análise foi utilizado um dataset que possui os seguintes dad
 **Step 11. Telegram Bot:** Criação de um bot no app do telegram, para consultar a previsão a qualquer momento
 
 ## 4. Top 3 Insights de Negócio
+No processo das análises exploratórias dos dados, foram levantadas algumas hipóteses de negócio que deveriam ser validadas (ou invalidadas) a fim de trazer insights de negócio. Destaco aqui 3 Insights identificados nos dados.
 
+Hipótese: Lojas com competidores mais próximos deveriam vender menos.
+
+![DISTANCE](/in_distance.png)
+
+Com este gráfico podemos comprovar que esta hipótese é falsa, pois podemos notar que lojas que possuem competidores mais próximos vendem mais.
 
 ## 5. Modelos de Machine Learning Aplicados
 
