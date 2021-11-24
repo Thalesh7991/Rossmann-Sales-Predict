@@ -23,6 +23,8 @@
 
 ## 3. Solution Strategy
 
+![CRISP](/crisp_metodo.jpg)
+
 ***My strategy to solve this challenge was:***
 
 **Step 01. Data Description:**  O objetivo é utilizar métricas estatísticas para identificar outliers no escopo do negócio.
