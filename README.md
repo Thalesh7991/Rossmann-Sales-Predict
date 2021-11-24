@@ -77,6 +77,13 @@ No processo das análises exploratórias dos dados, foram levantadas algumas hip
 
 Com este gráfico podemos comprovar que esta hipótese é falsa, pois podemos notar que lojas que possuem competidores mais próximos vendem mais.
 
+
+**Hipótese**: Lojas com maior sortimentos de produtos deveriam vender mais.
+
+![ASSORTMENT](/in_assortment.png)
+
+Este Insight nos mostra que lojas com maior sortimento de produtos vendem menos.
+
 ## 5. Modelos de Machine Learning Aplicados
 
 
