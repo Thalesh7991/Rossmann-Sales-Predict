@@ -5,7 +5,6 @@
 ## Customer Clustering
 
 ![SALES](/sales_analysis.jpg)
-
 ## 1. Business Problem
 
 <p> A empresa Rossmann é uma das maiores redes de drogaria da Europa, com cerca de mais de 56.200 funcionários e mais de 4000 lojas espalhadas pelo continente.</p>
