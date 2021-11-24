@@ -91,9 +91,38 @@ Este Insight nos mostra que lojas com maior sortimento de produtos vendem menos.
 Este Insight nos mostra que as lojas estão vendendo menos ao longo dos anos.
 
 ## 5. Modelos de Machine Learning Aplicados
+Os testes foram realizados usando os seguintes algoritmos:
+
+  -> Modelo de Regressão Linear
+
+  -> Modelo Regularizado de Regressão Linear - Lasso
+
+  -> Random Forest Regressor
+
+  -> Regressor XGBoost
+
+  -> Light GBM
 
 
 ## 6. Performance do Modelo de Machine Learning
+**Performance Individual**
+| Primeiro cabeçalho  |  MAE  | MAPE  |  RMSE  |
+| ------------------- | ------------------- | ------------------- | ------------------- |
+|  Random Forest Regressor |  679.598831	 |  0.099913 |  	1011.119437 |
+|  LGBM Regressor |  1325.406431 |  0.196505 |  1896.403553 |
+|  Linear Regression |  1867.089774	 |  0.292694	 |  2671.049215 |
+|  Linear Regression - Lasso |  1891.704881 |  0.289106 |  2744.451737 |
+|  XGBoost Regressor |  6683.606400 |  0.949503	 |  7330.742181 |
+
+**Desempenho Real: Aplicando Cross Validation**
+| Primeiro cabeçalho  |  MAE  | MAPE  |  RMSE  |
+| ------------------- | ------------------- | ------------------- | ------------------- |
+|  Random Forest Regressor |  836.61 +/- 217.1	 |  0.12 +/- 0.02 |  	1254.3 +/- 316.17 |
+|  LGBM Regressor |  1449.09 +/- 183.35 |  0.2 +/- 0.01 |  2080.81 +/- 249.66 |
+|  Linear Regression |  2081.73 +/- 295.63	 |  0.3 +/- 0.02	 |  2952.52 +/- 468.37 |
+|  Linear Regression - Lasso |  2116.38 +/- 341.5 |  0.29 +/- 0.01 |  3057.75 +/- 504.26 |
+|  XGBoost Regressor |  7047.97 +/- 587.65 |  0.95 +/- 0.0	 |  7714.03 +/- 688.72 |
+
 
 ## 7. Resultados de Negócio
 
