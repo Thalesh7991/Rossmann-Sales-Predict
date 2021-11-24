@@ -84,6 +84,12 @@ Com este gráfico podemos comprovar que esta hipótese é falsa, pois podemos no
 
 Este Insight nos mostra que lojas com maior sortimento de produtos vendem menos.
 
+**Hipótese**: As lojas deveriam vender mais ao longo dos anos
+
+![SALES](/in_sales.png)
+
+Este Insight nos mostra que as lojas estão vendendo menos ao longo dos anos.
+
 ## 5. Modelos de Machine Learning Aplicados
 
 
