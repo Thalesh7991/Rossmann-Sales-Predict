@@ -17,6 +17,28 @@
 
 ***The assumptions about the business problem is as follows:*** 
 
+## Lista de Atributos
+
+Para o processo de análise foi utilizado um dataset que possui os seguintes dados:
+
+| Atributos  |  Descrição |
+| ------------------- | ------------------- |
+|  Id |  Um id que representa uma (loja, data) dupla dentro do conjunto de teste |
+|  Store |  Um id único para cada loja |
+|  Sales |  O volume de vendas feitas |
+|  Customers |  O número de clientes em um determinado dia |
+|  Open |  Um indicador para saber se a loja estava aberta: 0 = fechada, 1 = aberta |
+|  Stateholiday |  Indica um feriado estadual. Normalmente todas as lojas, com poucas exceções, fecham nos feriados estaduais. Observe que todas as escolas fecham nos feriados e finais de semana. A = feriado, b = feriado da páscoa, c = natal, 0 = nenhum |
+|  Schoolholiday |  Indica se (loja, data) foi afetado pelo fechamento de escolas públicas |
+|  Storetype |  	Diferencia entre 4 modelos de loja diferentes: a, b, c, d |
+|  Assortment |  Descreve um nível de sortimento de produtos: a = básico, b = extra, c = estendido |
+|  Competitiondistance |  Distância em metros até a loja concorrente mais próxima |
+|  Competitionopensince[month/year] |  Dá o ano e mês aproximados em que o concorrente mais próximo foi aberto |
+|  Promo |  Indica se uma loja está fazendo uma promoção naquele dia |
+|  Promo2 |  Promo2 é uma promoção contínua e consecutiva para algumas lojas: 0 = a loja não está participando, 1 = a loja está participando |
+|  Promo2since[year/week] |  Descreve o ano e a semana do calendário em que a loja começou a participar da promo2 |
+|  Promointerval |  Descreve os intervalos consecutivos em que a promoção2 é iniciada, nomeando os meses em que a promoção é iniciada novamente. EG "fevereiro, maio, agosto, novembro" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para aquela loja |
+
 
 ## 3. Estratégia de Solução
 
