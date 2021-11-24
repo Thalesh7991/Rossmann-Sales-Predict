@@ -71,7 +71,7 @@ Para o processo de análise foi utilizado um dataset que possui os seguintes dad
 ## 4. Top 3 Insights de Negócio
 No processo das análises exploratórias dos dados, foram levantadas algumas hipóteses de negócio que deveriam ser validadas (ou invalidadas) a fim de trazer insights de negócio. Destaco aqui 3 Insights identificados nos dados.
 
-Hipótese: Lojas com competidores mais próximos deveriam vender menos.
+**Hipótese**: Lojas com competidores mais próximos deveriam vender menos.
 
 ![DISTANCE](/in_distance.png)
 
