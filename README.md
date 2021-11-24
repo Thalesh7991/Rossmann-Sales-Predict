@@ -23,7 +23,7 @@
 
 ## 3. Solution Strategy
 
-![CRISP](/crisp_metodo.jpg)
+![CRISP](/crisp_metodo.png)
 
 ***My strategy to solve this challenge was:***
 
