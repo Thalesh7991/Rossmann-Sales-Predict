@@ -2,10 +2,8 @@
 
 
 
-## Customer Clustering
-
 ![SALES](/sales_analysis.jpg)
-## 1. Business Problem
+## 1. Problema de Negócio
 
 <p> A empresa Rossmann é uma das maiores redes de drogaria da Europa, com cerca de mais de 56.200 funcionários e mais de 4000 lojas espalhadas pelo continente.</p>
 
@@ -15,16 +13,16 @@
 
 <p> Portanto, desenvolvi um modelo de Machine Learning que é capaz de realizar previsões do faturamento de cada loja com maior precisão. Além disso, desenvolvi uma aplicação para que o CFO possa consultar as previsões de faturamento diretamente do seu celular a qualquer momento, auxiliando na tomada de decisão. </p>
 
-## 2. Business Assumptions.
+## 2. Suposições de Negócio.
 
 ***The assumptions about the business problem is as follows:*** 
 
 
-## 3. Solution Strategy
+## 3. Estratégia de Solução
 
 ![CRISP](/crisp_metodo.png)
 
-***My strategy to solve this challenge was:***
+***Minha estratégia para resolver esse desafio foi:***
 
 **Step 01. Data Description:**  O objetivo é utilizar métricas estatísticas para identificar outliers no escopo do negócio.
 
@@ -48,22 +46,22 @@
 
 **Step 11. Telegram Bot:** Criação de um bot no app do telegram, para consultar a previsão a qualquer momento
 
-## 4. Top 3 Data Insights
+## 4. Top 3 Insights de Negócio
 
 
-## 5. Machine Learning Model Applied
+## 5. Modelos de Machine Learning Aplicados
 
 
-## 6. Machine Learning Modelo Performance
+## 6. Performance do Modelo de Machine Learning
 
-## 7. Business Results
+## 7. Resultados de Negócio
 
-## 8. Conclusions
-
-
-## 9. Lessons Learned
+## 8. Conclusões
 
 
-## 10. Next Steps to Improve
+## 9. Lições Aprendidas
+
+
+## 10. Próximos Passos
 
 
