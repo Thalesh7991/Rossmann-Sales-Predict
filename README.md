@@ -4,7 +4,7 @@
 
 ## Customer Clustering
 
-### imagem.....
+![SALES](/sales_analysis.jpg)
 
 ## 1. Business Problem
 
