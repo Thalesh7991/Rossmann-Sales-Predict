@@ -130,6 +130,9 @@ Apesar do modelo resultante do algoritmo **Random Forest** apresentar resultados
 |  LGBM Regressor |  630.352479		 |  0.091133|  	922.178829 |
 
 
+![PRED](/pred_erro.png)
+
+
 ## 7. Resultados de Negócio
 
 Por meio do modelo é possível reportar para o CFO da empresa a previsão de faturamento total de todas as lojas, com melhor cenário e pior cenário (baseado no erro do modelo). Desse modo ele pode ter uma visão do total de recursos disponíveis para o investimento nas reformas.
@@ -145,8 +148,6 @@ Por meio do modelo é possível reportar para o CFO da empresa a previsão de fa
 Para que o CFO tenha acesso às **predições em tempo real**, desenvolvi um bot no telegram que acessa o modelo desenvolvido, que está na web, e possa ter em poucos segundos a **previsão de faturamento das próximas 6 semanas** para todas as lojas que ele desejar.
 
 ![BOT](/bot_tel.png)
-
-### Clique para acessar o Bot
 
 ## 9. Conclusões
 
