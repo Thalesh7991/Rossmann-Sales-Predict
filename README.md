@@ -136,17 +136,20 @@ Por meio do modelo é possível reportar para o CFO da empresa a previsão de fa
 
 | Cenários  |  Faturamento |
 | ------------------- | ------------------- |
-| Predição |	R$283,225,608.85 |
-| Pior Cenário |	R$282,518,502.12 |
-| Melhor Cenário |	R$283,932,715.58 |
+| Predição |	R$ 283.225.608,85 |
+| Pior Cenário |	R$ 282.518.502,12 |
+| Melhor Cenário |	R$ 283.932.715,58 |
 
 
-## 8. Conclusões
+## 8. Produto de Dados
+Para que o CFO tenha acesso às **predições em tempo real**, desenvolvi um bot no telegram que acessa o modelo desenvolvido, que está na web, e possa ter em poucos segundos a **previsão de faturamento das próximas 6 semanas** para todas as lojas que ele desejar.
+
+## 9. Conclusões
 
 
-## 9. Lições Aprendidas
+## 10. Lições Aprendidas
 
 
-## 10. Próximos Passos
+## 11. Próximos Passos
 
 
