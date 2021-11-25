@@ -129,6 +129,7 @@ Apesar do modelo resultante do algoritmo **Random Forest** apresentar resultados
 | ------------------- | ------------------- | ------------------- | ------------------- |
 |  LGBM Regressor |  630.352479		 |  0.091133|  	922.178829 |
 
+Por meio dessa visualização podemos verificar a assertividade do nosso modelo. A linha em azul representa o faturamento real e a linha laranja nos mostra nossas predições. Como estamos desenvolvendo com o método cíclico, podemos elaborar melhorias que possam aumentar nossa assertividade em relação a essa primeira versão de entrega.
 
 ![PRED](/pred_erro.png)
 
@@ -150,11 +151,21 @@ Para que o CFO tenha acesso às **predições em tempo real**, desenvolvi um bot
 ![BOT](/bot_tel.png)
 
 ## 9. Conclusões
+Podemos concluir que o resultado, para um primeiro ciclo de desenvolvimento, se mostra satisfatório. Foi possível após uma coleta de dados e uma análise completa, identificar alavancas de negócios, elaboração de insights e desenvolver um modelo capaz de prever o faturamento das próximas 6 semanas para cada loja. Foi possível identificar a existência de algumas lojas que apresentam um grau de dificuldade maior para predição o que exige um segundo ciclo de desenvolvimento para aprimorar o modelo.
 
 
-## 10. Lições Aprendidas
+## 10. Próximos Passos
+Iniciar um segundo ciclo de desenvolvimento, buscando diferentes abordagens em algumas etapas do processo.
 
+**Alguns tópicos que podem ser explorados:**
 
-## 11. Próximos Passos
+-> Elaborar novas features que possam contribuir para o entendimento do fenômeno
+
+-> Testar diferentes abordagens de Rescaling e Encoding para avaliar uma possível melhora da performance do modelo.
+
+-> Testar mais algoritmos
+
+-> Testar mais parâmetros no processo de Fine Tunning.
+
 
 
