@@ -132,6 +132,15 @@ Apesar do modelo resultante do algoritmo **Random Forest** apresentar resultados
 
 ## 7. Resultados de Negócio
 
+Por meio do modelo é possível reportar para o CFO da empresa a previsão de faturamento total de todas as lojas, com melhor cenário e pior cenário (baseado no erro do modelo). Desse modo ele pode ter uma visão do total de recursos disponíveis para o investimento nas reformas.
+
+| Cenários  |  Faturamento |
+| ------------------- | ------------------- |
+| Predição |	R$283,225,608.85 |
+| Pior Cenário |	R$282,518,502.12 |
+| Melhor Cenário |	R$283,932,715.58 |
+
+
 ## 8. Conclusões
 
 
