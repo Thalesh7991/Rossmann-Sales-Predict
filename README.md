@@ -15,7 +15,15 @@
 
 ## 2. Suposições de Negócio.
 
-***The assumptions about the business problem is as follows:*** 
+***As seguintes suposições para este problema de negócio foram tomadas:*** 
+
+-> Os dias em que as lojas foram fechadas foram descartados.
+
+
+-> Apenas lojas com valores de vendas maiores que 0 foram avaliados.
+
+
+-> Para as lojas que não possuíam informações de Distância da Competição, foi assumido que a distância seria 200.000.
 
 ## Lista de Atributos
 
