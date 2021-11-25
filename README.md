@@ -106,7 +106,7 @@ Os testes foram realizados usando os seguintes algoritmos:
 
 ## 6. Performance do Modelo de Machine Learning
 **Performance Individual**
-| Primeiro cabeçalho  |  MAE  | MAPE  |  RMSE  |
+| Modelo  |  MAE  | MAPE  |  RMSE  |
 | ------------------- | ------------------- | ------------------- | ------------------- |
 |  Random Forest Regressor |  679.598831	 |  0.099913 |  	1011.119437 |
 |  LGBM Regressor |  1325.406431 |  0.196505 |  1896.403553 |
@@ -115,13 +115,19 @@ Os testes foram realizados usando os seguintes algoritmos:
 |  XGBoost Regressor |  6683.606400 |  0.949503	 |  7330.742181 |
 
 **Desempenho Real: Aplicando Cross Validation**
-| Primeiro cabeçalho  |  MAE  | MAPE  |  RMSE  |
+| Modelo  |  MAE  | MAPE  |  RMSE  |
 | ------------------- | ------------------- | ------------------- | ------------------- |
 |  Random Forest Regressor |  836.61 +/- 217.1	 |  0.12 +/- 0.02 |  	1254.3 +/- 316.17 |
 |  LGBM Regressor |  1449.09 +/- 183.35 |  0.2 +/- 0.01 |  2080.81 +/- 249.66 |
 |  Linear Regression |  2081.73 +/- 295.63	 |  0.3 +/- 0.02	 |  2952.52 +/- 468.37 |
 |  Linear Regression - Lasso |  2116.38 +/- 341.5 |  0.29 +/- 0.01 |  3057.75 +/- 504.26 |
 |  XGBoost Regressor |  7047.97 +/- 587.65 |  0.95 +/- 0.0	 |  7714.03 +/- 688.72 |
+
+Apesar do modelo resultante do algoritmo **Random Forest** apresentar resultados superiores aos demais algoritmos, o mesmo toma muito espaço de armazenamento para fazer o deploy em produção, resultando em um custo maior para a empresa mantê-lo no ar. Portanto, decidi escolher o algoritmo **LGBM Regressor** que apresentou um desempenho levemente inferior que tenha um menor custo para publicação. **Posteriormente foi realizado o processo de Ajuste de Hiperparâmetros do modelo e tivemos o seguinte resultado:**
+
+| Modelo  |  MAE  | MAPE  |  RMSE  |
+| ------------------- | ------------------- | ------------------- | ------------------- |
+|  LGBM Regressor |  630.352479		 |  0.091133|  	922.178829 |
 
 
 ## 7. Resultados de Negócio
