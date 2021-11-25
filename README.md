@@ -9,7 +9,7 @@
 
 <p> Em uma reunião mensal com todos os gerentes da rede, o CFO solicitou uma previsão do faturamento de cada loja para as próximas 6 semanas a fim de que ele possa decidir qual loja terá budget suficiente para realizar reformas em sua estrutura. </p>
 
-<p> As vendas das lojas são influenciadas por muitos fatores, incluindo promoções, competição entre as lojas, feriados escolares e estaduais, sazonalidade e localidade. Com milhares de gerentes individuais prevendo vendas com base em suas circunstâncias únicas, a precisão dos resultados pode ser bastante variada o que preujudica na tomada de decisão do CFO. </p>
+<p> As vendas das lojas são influenciadas por muitos fatores, incluindo promoções, competição entre as lojas, feriados escolares e estaduais, sazonalidade e localidade. Com milhares de gerentes individuais prevendo vendas com base em suas circunstâncias únicas, a precisão dos resultados pode ser bastante variada o que prejudica na tomada de decisão do CFO. </p>
 
 <p> Portanto, desenvolvi um modelo de Machine Learning que é capaz de realizar previsões do faturamento de cada loja com maior precisão. Além disso, desenvolvi uma aplicação para que o CFO possa consultar as previsões de faturamento diretamente do seu celular a qualquer momento, auxiliando na tomada de decisão. </p>
 
